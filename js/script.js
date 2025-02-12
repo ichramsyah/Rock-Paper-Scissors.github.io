@@ -4,7 +4,7 @@ document.addEventListener("DOMContentLoaded", function(){
 
     setTimeout(() => {
         heroImage.style.opacity = "1";
-    }, 2000);
+    }, 1500);
     
     setTimeout(() => {
         heroImage.style.opacity = "0";
