@@ -4,14 +4,14 @@ document.addEventListener("DOMContentLoaded", function(){
 
     setTimeout(() => {
         heroImage.style.opacity = "1";
-    }, 1000);
+    }, 2000);
     
     setTimeout(() => {
         heroImage.style.opacity = "0";
-    }, 5000);
+    }, 6000);
     
     setTimeout(() => {
         heroImage.remove();
-    }, 6000);
+    }, 7000);
     
 })
