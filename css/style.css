@@ -20,19 +20,22 @@ body, html {
     transition: opacity 1s ease-in-out; 
 }
 
-@media (max-width: 480px){
-.hero{
-    width: 300px;
-}
-body, html{
-    height: 90vh;
-    background-position: left;
-}
+@media (max-width: 720px){
+    .hero{
+        width: 420px;
+    }
+    body, html{
+        height: 90vh;
+        background-position: left;
+    }
 }
 
-@media (max-width: 720px){
-body,html{
-    height: 90vh;
-    background-position: left;
-}
+@media (max-width: 480px){
+    .hero{
+        width: 300px;
+    }
+    body, html{
+        height: 90vh;
+        background-position: left;
+    }
 }
