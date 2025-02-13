@@ -15,3 +15,12 @@ document.addEventListener("DOMContentLoaded", function(){
     }, 7000);
     
 })
+
+document.addEventListener("DOMContentLoaded", function(){
+    let computer = document.querySelector('.computer');
+    
+    setTimeout(() => {
+        computer.style.opacity = '1';
+        computer.style.transform = "translateY(0)";
+    }, 8000);
+})
