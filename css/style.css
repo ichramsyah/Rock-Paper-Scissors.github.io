@@ -48,9 +48,7 @@ body, html {
         background-position: left;
     }
 
-    .intro{
-        margin-top: 1px;
-    }
+    
 }
 
 .computer{
@@ -138,6 +136,10 @@ body, html {
 
     .area-player .li:hover{
         transform: scale(1.10);
+    }
+
+    .computer{
+        margin-top: 1px;
     }
     
 }
