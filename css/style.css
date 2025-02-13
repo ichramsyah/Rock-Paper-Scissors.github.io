@@ -102,6 +102,9 @@ body, html {
     margin-top: 10px;
 }
 
+.area-player .li{
+    transition: 0.3s ease-in-out;
+}
 
 .area-player .li:hover{
     transform: scale(1.10);
