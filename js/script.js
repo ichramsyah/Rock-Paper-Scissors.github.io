@@ -8,11 +8,11 @@ document.addEventListener("DOMContentLoaded", function(){
     
     setTimeout(() => {
         heroImage.style.opacity = "0";
-    }, 6000);
+    }, 4000);
     
     setTimeout(() => {
         heroImage.remove();
-    }, 7000);
+    }, 6000);
     
 })
 
@@ -22,7 +22,7 @@ document.addEventListener("DOMContentLoaded", function(){
     setTimeout(() => {
         computer.style.opacity = '1';
         computer.style.transform = "translateY(0)";
-    }, 8000);
+    }, 5500);
 })
 
 
@@ -32,7 +32,7 @@ document.addEventListener("DOMContentLoaded", function (){
     setTimeout(() => {
         card.style.opacity = '1';
         card.style.transform = 'translateY(0)';
-    }, 8500);
+    }, 6000);
 })
 
 document.addEventListener("DOMContentLoaded", function(){
@@ -41,5 +41,5 @@ document.addEventListener("DOMContentLoaded", function(){
     setTimeout(() => {
         info.style.opacity = '1';
         info.style.transform = 'translateY(0)';
-    }, 8300);
+    }, 5800);
 })
