@@ -98,10 +98,7 @@ body, html {
         height: 1vh;
         background-position: left;
     }
-    .intro{
-        height: 100vh;
-        margin-top: 1px;
-    }
+
     .area-player{
         margin-top: 40px;
         gap: 20px;
@@ -127,7 +124,7 @@ body, html {
     }
 
     .computer{
-        margin-top: 1px;
+        margin-top: -540px;
     }
     
 }
