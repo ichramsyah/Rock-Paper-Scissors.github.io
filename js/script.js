@@ -24,3 +24,22 @@ document.addEventListener("DOMContentLoaded", function(){
         computer.style.transform = "translateY(0)";
     }, 8000);
 })
+
+
+document.addEventListener("DOMContentLoaded", function (){
+    let card = document.querySelector('.area-player');
+
+    setTimeout(() => {
+        card.style.opacity = '1';
+        card.style.transform = 'translateY(0)';
+    }, 8500);
+})
+
+document.addEventListener("DOMContentLoaded", function(){
+    let info = document.querySelector('.info');
+
+    setTimeout(() => {
+        info.style.opacity = '1';
+        info.style.transform = 'translateY(0)';
+    }, 8300);
+})
