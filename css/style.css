@@ -95,10 +95,11 @@ body, html {
 
 @media (max-width:480px){
     .intro{
-        margin-bottom: -20px;
+        height: 700px;
     }
     .hero{
         width: 300px;
+        
     }
     body, html{
         background-position: left;
@@ -128,6 +129,6 @@ body, html {
     }
 
     .computer {
-        margin-top: -440px;
+        margin-top: -570px;
     }
 }
