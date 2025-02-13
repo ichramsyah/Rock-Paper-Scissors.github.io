@@ -49,6 +49,7 @@ body, html {
     font-size: 25px;
     color: white;
     font-weight: 100;
+    margin-top: 10px;
 }
 
 .info{
@@ -80,6 +81,7 @@ body, html {
     color: white;
     font-weight: 100;
     font-size: 30px;
+    margin-top: 10px;
     
 }
 
@@ -92,15 +94,16 @@ body, html {
 }
 
 @media (max-width:480px){
-    .hero{
-        width: 300px;
+    
+
+    .intro{
+        height: 600px;
     }
     body, html{
         background-position: left;
     }
 
     .area-player{
-        
         gap: 20px;
     }
     
@@ -120,6 +123,10 @@ body, html {
 
     .area-player .li:hover{
         transform: scale(1.10);
+    }
+
+    .computer{
+        margin-top: -420px;
     }
 
  
