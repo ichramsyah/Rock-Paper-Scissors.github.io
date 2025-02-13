@@ -94,16 +94,15 @@ body, html {
 }
 
 @media (max-width:480px){
-    
-
-    .intro{
-        margin-top: 20px;
+    .hero{
+        width: 300px;
     }
     body, html{
         background-position: left;
     }
 
     .area-player{
+        
         gap: 20px;
     }
     
@@ -125,9 +124,7 @@ body, html {
         transform: scale(1.10);
     }
 
-    .computer{
-        margin-top: -420px;
+    .computer {
+        margin-top: -460px;
     }
-
- 
 }
