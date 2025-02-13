@@ -5,7 +5,6 @@
 
 body, html {
     width: 100%;
-    height: 100vh;
     margin: 0;
     padding: 0;
     background-image: url('../img/background-01.webp');
@@ -18,24 +17,25 @@ body, html {
 }
 
 .intro{
+    height: 550px;
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    text-align: center;
 }
 .hero {
     width: 600px;
     opacity: 0; 
-    transition: opacity 0.8s ease-in-out; 
+    transition: opacity 0.4s ease-in-out; 
 }
 
 .computer{
     width: 100%;
-    display: flex;
+    display: none;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin-top: -550px;
+    margin-top: -500px;
     opacity: 0;
     transform: translateY(30px);
     transition: opacity 0.5s ease-in-out, transform 0.5s ease-in-out;
@@ -48,24 +48,25 @@ body, html {
 .computer h2{
     font-size: 25px;
     color: white;
-    margin-top: 8px;
     font-weight: 100;
 }
 
 .info{
+    display: none;
     width: 100%;
     color: white;
-    margin-top: 2px;
     font-size: 37px;
     opacity: 0;
+    margin-bottom: 23px;
+    transform: translateY(30px);
     transition: opacity 0.5s ease-in-out, transform 0.5s ease-in-out;
 }
 
 .area-player{
-    display: flex;
+    display: none;
     justify-content: center;
-    margin-top: 40px;
     gap: 40px;
+
     opacity: 0;
     transform: translateY(30px);
     transition: opacity 0.5s ease-in-out, transform 0.5s ease-in-out;
@@ -79,7 +80,7 @@ body, html {
     color: white;
     font-weight: 100;
     font-size: 30px;
-    margin-top: 10px;
+    
 }
 
 .area-player .li{
@@ -95,12 +96,11 @@ body, html {
         width: 300px;
     }
     body, html{
-        height: 1vh;
         background-position: left;
     }
 
     .area-player{
-        margin-top: 40px;
+        
         gap: 20px;
     }
     
@@ -112,7 +112,6 @@ body, html {
         color: white;
         font-weight: 100;
         font-size: 23px;
-        margin-top: 5px;
     }
 
     .area-player .li{
@@ -123,8 +122,5 @@ body, html {
         transform: scale(1.10);
     }
 
-    .computer{
-        margin-top: -530px;
-    }
-    
+ 
 }
