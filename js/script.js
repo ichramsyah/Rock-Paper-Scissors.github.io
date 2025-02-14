@@ -76,7 +76,7 @@ document.addEventListener("DOMContentLoaded", function () {
                     playerScore++; // Tambah skor
                     updateScore(); // Panggil fungsi update score
                 }
-            }, 1000);
+            }, 1500);
         }
     });
 
@@ -109,13 +109,13 @@ document.addEventListener("DOMContentLoaded", function () {
         const imgComputer = document.querySelector(".imgcomp");
 
         const intervalId = setInterval(function () {
-            if (new Date().getTime() - timeStart > 1000) {
+            if (new Date().getTime() - timeStart > 1500) {
                 clearInterval(intervalId);
                 return;
             }
             imgComputer.setAttribute("src", allImage[i++] + ".webp");
             if (i >= allImage.length) i = 0;
-        }, 50);
+        }, 80);
     }
 });
 
