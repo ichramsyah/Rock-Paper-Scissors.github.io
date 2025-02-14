@@ -67,7 +67,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
             setTimeout(function () {
                 const imgComputer = document.querySelector(".imgcomp");
-                imgComputer.setAttribute("src", computerDecision + ".webp");
+                imgComputer.setAttribute("src", "img/"  + computerDecision + ".webp");
 
                 info.innerHTML = result;
 
