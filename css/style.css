@@ -2,7 +2,16 @@
     font-family: 'Nexa';
     src: url(../assets/Nexa\ Black.ttf) format('truetype');
 }
-
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(-10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
 body, html {
     width: 100%;
     margin: 0;
@@ -131,4 +140,19 @@ body, html {
     .computer {
         margin-top: -570px;
     }
+}
+
+#scoreboard {
+    display: none;
+    position: fixed; /* Tetap di pojok kiri atas saat scroll */
+    top: -9px;
+    left: 15px;
+    color: white;
+    border-radius: 8px;
+    font-size: 22px;
+    font-weight: 100;
+    z-index: 1000; /* Pastikan tetap di atas elemen lain */
+    opacity: 0; /* Awalnya tersembunyi */
+    transform: translateY(-10px);
+    transition: opacity 0.5s ease-out, transform 0.5s ease-out;
 }
