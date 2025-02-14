@@ -67,7 +67,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
             setTimeout(function () {
                 const imgComputer = document.querySelector(".imgcomp");
-                imgComputer.setAttribute("src", "img/"  + computerDecision + ".webp");
+                imgComputer.setAttribute("src", "/img/"  + computerDecision + ".webp");
 
                 info.innerHTML = result;
 
@@ -115,7 +115,7 @@ document.addEventListener("DOMContentLoaded", function () {
             }
             imgComputer.setAttribute("src", allImage[i++] + ".webp");
             if (i >= allImage.length) i = 0;
-        }, 100);
+        }, 50);
     }
 });
 
