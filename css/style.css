@@ -63,13 +63,17 @@ body, html {
 
 .info{
     display: none;
-    width: 100%;
+    position: fixed; /* Tetap di pojok kiri atas saat scroll */
+    top: 20px;
+    right: 20px;
     color: white;
-    font-size: 37px;
-    opacity: 0;
-    margin-bottom: 23px;
-    transform: translateY(30px);
-    transition: opacity 0.5s ease-in-out, transform 0.5s ease-in-out;
+    border-radius: 8px;
+    font-size: 36px;
+    font-weight: 100;
+    z-index: 1000; /* Pastikan tetap di atas elemen lain */
+    opacity: 0; /* Awalnya tersembunyi */
+    transform: translateY(-10px);
+    transition: opacity 0.5s ease-out, transform 0.5s ease-out;
 }
 
 .area-player{
@@ -100,6 +104,32 @@ body, html {
 
 .area-player .li:hover{
     transform: scale(1.10);
+}
+
+.vs{
+    display: none;
+    width: 100%;
+    color: white;
+    font-size: 37px;
+    opacity: 0;
+    margin-bottom: 23px;
+    transform: translateY(30px);
+    transition: opacity 0.5s ease-in-out, transform 0.5s ease-in-out;
+}
+
+#scoreboard {
+    display: none;
+    position: fixed; /* Tetap di pojok kiri atas saat scroll */
+    top: -9px;
+    left: 15px;
+    color: white;
+    border-radius: 8px;
+    font-size: 22px;
+    font-weight: 100;
+    z-index: 1000; /* Pastikan tetap di atas elemen lain */
+    opacity: 0; /* Awalnya tersembunyi */
+    transform: translateY(-10px);
+    transition: opacity 0.5s ease-out, transform 0.5s ease-out;
 }
 
 @media (max-width:480px){
@@ -142,17 +172,3 @@ body, html {
     }
 }
 
-#scoreboard {
-    display: none;
-    position: fixed; /* Tetap di pojok kiri atas saat scroll */
-    top: -9px;
-    left: 15px;
-    color: white;
-    border-radius: 8px;
-    font-size: 22px;
-    font-weight: 100;
-    z-index: 1000; /* Pastikan tetap di atas elemen lain */
-    opacity: 0; /* Awalnya tersembunyi */
-    transform: translateY(-10px);
-    transition: opacity 0.5s ease-out, transform 0.5s ease-out;
-}

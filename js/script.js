@@ -41,6 +41,16 @@ document.addEventListener("DOMContentLoaded", function () {
         info.style.opacity = "1";
         info.style.transform = "translateY(0)";
     }, 5300);
+    
+    let vs = document.querySelector(".vs");
+    setTimeout(() => {
+        vs.style.display = "block";
+    }, 4900);
+
+    setTimeout(() => {
+        vs.style.opacity = "1";
+        vs.style.transform = "translateY(0)";
+    }, 5300);
 
     let card = document.querySelector(".area-player");
     setTimeout(() => {
